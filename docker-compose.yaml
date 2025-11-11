@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: fastapi-ml
+    ports:
+      - "8500:8000"
+    volumes:
+      - .//app/data
+    environment:
+      - ENVIRONMENT=production
+    restart: unless-stopped

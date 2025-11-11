@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+opencv-python
+pytesseract
+ultralytics
+numpy
+python-jose[cryptography]
+pydantic
